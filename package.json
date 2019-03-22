@@ -1,6 +1,6 @@
 {
   "name": "homebridge-sonoff-outlet-tasmota-http",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Control Sonoff Basic devices with Tasmota >5.10.0b firmware through Homebridge",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "url": "git+https://github.com/lukasa1993/homebridge-sonoff-outlet-tasmota-http.git"
   },
   "bugs": {
-    "url": "https://github.com/lukasa1993/homebridge-sonoff-outlet-tasmota-http.git/issues"
+    "url": "https://github.com/lukasa1993/homebridge-sonoff-outlet-tasmota-http/issues"
   },
   "homepage": "https://github.com/lukasa1993/homebridge-sonoff-outlet-tasmota-http.git#readme"
 }
