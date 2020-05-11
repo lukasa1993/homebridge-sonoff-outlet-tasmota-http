@@ -1,0 +1,39 @@
+{
+  "pluginAlias": "SonoffTasmotaHTTP",
+  "pluginType": "accessory",
+  "footerDisplay": "This is a plugin for [homebridge](https://github.com/nfarina/homebridge) which makes it possible to control Sonoff Basic devices with [Tasmota](https://github.com/arendst/Sonoff-Tasmota) firmware through HTTP only.",
+  "schema": {
+    "type": "object",
+    "properties": {
+            "name": {
+              "title": "Name",
+              "type": "string",
+              "default": "Outlet",
+              "required": true
+            },
+            "hostname": {
+              "title": "Host name or Address IP",
+              "type": "string",
+              "default": "192.160.1.61",
+              "required": true,
+              "format": "hostname"
+            },
+            "relay": {
+              "title": "Relay",
+              "type": "string",
+              "default": "1",
+              "required": false
+            },
+            "user": {
+              "title": "User",
+              "type": "string",
+              "required": false
+            },
+            "pass": {
+              "title": "Password",
+              "type": "string",
+              "required": false
+            }
+                }
+              }
+            }
